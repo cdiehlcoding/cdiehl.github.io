@@ -141,3 +141,40 @@ footer a:visited {
 footer a:hover {
     text-decoration: underline;
 }
+
+table, th, td {
+	border: 1px solid;
+	border-radius: 5px;
+	background-color: rgba(204, 252, 164);
+	font-size: .90em;
+	text-align: left;
+	width: 100%; 
+    	padding: 1px; 
+   	border: 2px solid rgba(0,0,0,1.00);
+    	box-sizing: border-box; 
+		
+}
+
+form#survey > fieldset {
+	border: 1px solid;
+	border-radius: 5px;
+	background-color: rgba(200, 200, 200);
+	font-size: .90em;
+	text-align: left;
+	width: 100%; 
+    	padding: 1px; 
+   	border: 2px solid rgba(0,0,0,1.00);
+    	box-sizing: border-box; 
+		
+}
+		
+div.formRow {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 1px 5px;
+}
+
+div.formRow > * { 
+	flex: 1 1 700px; 
+}
+	
